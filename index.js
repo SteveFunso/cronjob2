@@ -40,8 +40,8 @@ var transporter = nodemailer.createTransport({
 
 const mailOptions = {
     from: 'pfajemilo@gmail.com',
-    to: "geotim199422@gmail.com",
+    to: "info@maxitech.ng",
     subject: 'Interview Assessment',
-    html: '<p>Maxitech is an IT company that focuses on Ecommerce and investment</p>'
+    html: '<p>Maxitech is an IT company that focuses on Ecommerce, Information Technology and Investment</p>'
 }
 app.listen(4000)
