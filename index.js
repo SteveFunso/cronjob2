@@ -4,7 +4,7 @@ const express = require('express');
 var app = express();
 
 
-cron.schedule('0 48 1 17 * * ', () => {
+cron.schedule('0 0 8 19 * * ', () => {
    transporter.sendMail(mailOptions, function(err, info){
        if(err)
        console.log(err);
@@ -12,7 +12,7 @@ cron.schedule('0 48 1 17 * * ', () => {
        console.log(info)
    })
 })
-cron.schedule('0 49 1 17 * * ', () => {
+cron.schedule('0 0 12 23 * * ', () => {
    transporter.sendMail(mailOptions, function(err, info){
        if(err)
        console.log(err);
@@ -20,7 +20,7 @@ cron.schedule('0 49 1 17 * * ', () => {
        console.log(info)
    })
 })
-cron.schedule('0 50 1 17 * * ', () => {
+cron.schedule('0 0 17 30 * * ', () => {
    transporter.sendMail(mailOptions, function(err, info){
        if(err)
        console.log(err);
